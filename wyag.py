@@ -25,7 +25,7 @@ class GitRepository(object):
 
         # read configuration file .git/config
         self.conf = configparser.ConfigParser()
-        cf = repo_file(self, "config")
+        cf = repo_file(self, "config youhoooooo")
 
         if cf and os.path.exists(cf):
             self.conf.read([cf])
